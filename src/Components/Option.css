@@ -1,0 +1,131 @@
+.box {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.option option {
+  background: #a0d2e7;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.option-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.question-type {
+  display: inline-block;
+  margin-left: 10px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.option-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+}
+
+.option-input {
+  flex-grow: 1;
+}
+
+.option-text {
+  width: 100%;
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.add-option-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.add-option-input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+.add-option-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-option-button:hover {
+  background-color: #0056b3;
+}
+
+.bulk-paste {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.bulk-paste-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.bulk-paste-button:hover {
+  background-color: #0056b3;
+}
